@@ -1,0 +1,57 @@
+body{margin:0;
+padding:0;
+
+}
+.mainpage{
+    background: black;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.intro{
+    color:rgb(155, 245, 11);
+    font-size: large;
+    padding:40px;
+    align-items: center;
+    text-align: center;
+}
+.project{
+    text-align:center;
+    align-items: center;
+
+}
+.one{
+    color:white;
+    width:100px;
+    display: inline-block;
+    border: 1px solid rgb(155, 245, 11);
+    align-items: center;
+    padding:40px;
+    margin:40px;
+}
+.two{
+    color:white;
+    width:100px;
+    display: inline-block;
+    border: 1px solid rgb(155, 245, 11);
+    align-items: center;
+    padding:40px;
+    margin:40px;
+    flex:auto;
+}
+.one:hover{
+    padding:43px;
+  border:3px solid rgb(155, 245, 11);
+
+}
+.two:hover{
+    padding:43px;
+    border:3px solid rgb(155, 245, 11);
+}
+p{
+    font-size: 20px;
+    font-weight: 1000;
+}
